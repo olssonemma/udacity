@@ -1,0 +1,67 @@
+@media only screen and (max-width: 375px) {
+
+
+    .wrapper {
+        width: 100vw;
+    }
+
+
+
+    /* Hero */
+
+    .hero-left {
+        background-image: none;
+        background-color:#030b0e;
+        margin-bottom: 0;
+        padding: 1rem .3rem;
+    }
+
+    .hero-left-content{
+        min-width: 100%;
+    }
+
+
+
+    /* Cards */
+
+    .card-title {
+        padding: .9rem;
+    }
+
+    .card-title h2 {
+        font-size: 1.6rem;
+    }
+
+    .card-title p {
+        font-size: 1.1rem;
+        font-weight: 200;
+    }
+
+    .card-box-container {
+        height: 100%;
+        grid-template-areas: 
+        "card-one"
+        "card-two"
+        "card-three" 
+        "card-four";
+        row-gap: 2rem;
+        column-gap: 2rem;
+        justify-content: center;
+    }
+
+
+
+    /* Banner */
+
+    .banner h2{
+        font-size: 1.5rem;
+    }
+
+    .banner p{
+        font-size: 1rem;
+        line-height: 2rem;
+        padding: 0 2rem 2rem 2rem;
+    }
+
+
+}

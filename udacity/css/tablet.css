@@ -1,0 +1,235 @@
+@media (max-width: 768px) {
+
+
+    .wrapper {
+        width: 100vw;
+        height: 100%;
+    }
+
+
+
+    /* Hero */
+
+    .hero-left-content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        padding-top: 2rem;
+    }
+
+    .hero-left-content p:not(:first-of-type), ul {
+        display: none;
+    }
+
+
+
+    /* Hero Table */
+
+    .hero-right {
+        width: 100%;
+    }
+
+    .hero-right h3 {
+        font-size: 1.3rem;
+        margin-top: 1rem;
+    }
+
+    thead th, tbody td {
+        font-size: 75%;
+    }
+
+    thead th {
+        width: 8%;
+    }
+
+    thead th, tbody td {
+        height: 2rem;
+    }
+
+    .teable-subject {
+        min-width: 2rem;
+    }
+
+
+
+    /* Carousel */
+
+    .carousel-title {
+        font-size: 1.25rem;
+    }
+
+    .carousel-menu {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .carousel-menu-item {
+        position: relative;
+        height: 2.5rem;
+        display: flex;
+        align-items: center;
+        border-bottom: 1px #c8cdd2 solid;
+    }
+
+    .carousel-menu-item::after {
+        content: '\002B';
+        font-size: 1.8rem;
+        color: #02b3e4;
+        position: absolute;
+        right: 1rem;
+    }
+
+    .carousel-menu-item a {
+        font-weight: 600;
+    }
+
+    .carousel-menu-item .underline, .triangle {
+        display: none;
+    }
+
+
+
+    /* Banner */
+
+    .banner {
+        padding: 3rem 1rem 4rem 1rem;
+    }
+
+
+
+    /* Student Cards */
+
+    .student-box-container {
+        width: 100%;
+        display: grid;
+        grid-template-rows: repeat(3, 21.5rem);
+        justify-content: space-around;
+        text-align: center;
+        margin-top: 5rem;
+    }
+
+    .student-cards h2 {
+        font-size: 1.4rem;
+    }
+
+    .student-cards-numbers {
+        width: 100%;
+        height: 20%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .numbers-column h3 {
+        font-size: 80%;
+    }
+
+    .student-box-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 3.5rem;
+    }
+
+    .student-cards-column {
+        min-width: 21.5rem;
+        height: 23.5rem;
+    }
+
+
+
+    /* Footer */
+
+    .icon-to-top {
+        display: inline-block;
+        padding: 0 0 3rem 3rem;
+    }
+
+    .footer-top {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        padding: 0 1rem 1.5rem 1rem;
+        background: #fff;
+        box-shadow: 0 6px 8px 0px rgba(17,22,26,.16);
+    }
+
+    .link-list-item {
+        display: none;
+    }
+
+    .link-list {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .link-list-title {
+        position: relative;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+    }
+
+    .link-list-title::after {
+        content: '\002B';
+        font-size: 1.2rem;
+        font-weight: 200;
+        color: #2e3d49;
+        opacity: 30%;
+        position: absolute;
+        right: .1rem;
+    }
+
+    .footer-bottom-links{   
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border-top: .2px solid lightgray;
+    opacity: 50%;
+    margin-top: 3rem;
+    }
+
+    .bottom-links-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 1rem;
+    }
+
+    .bottom-links-menu-item p {
+        display: flex;
+        text-align: center;
+    }
+
+    .bottom-links-menu-item a{
+        display: none;
+    }
+
+    .bottom-social-media-menu {
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .social-icon {
+    filter: invert(38%) sepia(9%) saturate(672%) hue-rotate(167deg) brightness(87%) contrast(90%);
+    }
+
+    .social-icon:hover {
+    filter: invert(11%) sepia(14%) saturate(597%) hue-rotate(164deg) brightness(96%) contrast(88%);
+    transition: .3s ease;
+    }
+
+    .footer-bottom-end-text p {
+        padding: 0 3rem;
+
+
+    }
+
+
+
+}
+

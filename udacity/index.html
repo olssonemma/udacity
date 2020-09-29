@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/e99e9affab.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/desktop.css">
+    <link rel="stylesheet" href="/css/tablet.css">
+    <link rel="stylesheet" href="/css/mobile.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+    <!-- Header Starts -->
+    <header class="main-header">
+        <!-- Burger Menu Starts -->
+        <div class="hamburger-logo">
+            <label class="burger-menu" for="trigger"></label>
+            <div class="nav-logo-hamburger">
+                <svg height="30" viewBox="0 0 30 30" width="30"><path d="M29 .5l1 .5v13c0 5.551887-2.8897 8.695692-5.995216 10.099885L24.0094 24.1l-7.620963 4.388562c-.05877.03456-.11776.068527-.176957.101902l-.08642.049764.001806-.00254C14.48289 29.545895 12.684682 30 11 30 6 30 0 26 0 18V6l2 1v11c0 8 6 10 9 10 1.858706 0 4.86901-.76773 6.89043-3.254517C14.181726 23.872636 10 20.678703 10 14V2.2L2 7 0 6l10-6 1 .5 1 .5v13c0 6.939958 4.515283 8.612086 7.017542 8.933368C19.625786 21.62159 20 19.997902 20 18V5l2 1v12c0 1.852645-.321777 3.49077-.878395 4.91438C23.648223 22.549217 28 20.813144 28 14V2.25L22 6l-2-1 8-5 1 .5z" fill="#02B3E4" fill-rule="evenodd"></path></svg>
+            </div>  
+        </div>
+        <!-- Burger Menu Ends -->
+
+        <!-- Main Navigation -->
+        <nav class="primary-nav">
+            <div class="logo-box">
+            <svg height="30" viewBox="0 0 180 30" width="180"><g fill="none" fill-rule="evenodd"><path d="M57.6 17.239187c0 2.546698-2.085517 4.407747-4.965517 4.407747-2.88 0-4.965517-1.86105-4.965517-4.407747V7.835994H45.68276v9.501143c0 3.330298 2.88 6.170846 6.951723 6.170846 4.071724 0 6.951724-2.938498 6.951724-6.170846V7.835994H57.6v9.403193zm16.286897-9.403193h-5.36276v15.67199h5.36276c4.468965 0 7.547586-3.03645 7.547586-7.835996 0-4.701596-3.07862-7.835994-7.547586-7.835994zm-.19862 13.71299h-3.177932V9.794994h3.17793c3.376553 0 5.76 2.252847 5.76 5.876994 0 3.917998-2.482757 5.779046-5.76 5.876996zm43.49793.29385c-3.575172 0-5.95862-2.644648-5.95862-6.170846 0-3.526197 2.482758-6.072895 5.95862-6.072895 2.78069 0 4.468966 1.5672 4.468966 1.5672l.794483-1.3713s-1.787587-1.86105-5.46207-1.86105c-4.766896 0-7.746206 3.526198-7.746206 7.738045 0 4.309797 3.07862 7.933945 7.944827 7.933945 3.773793 0 5.66069-2.5467 5.66069-2.5467l-1.092414-1.175398c-.09931-.09795-1.588965 1.959-4.568276 1.959zm14.896553-14.00684h1.986206v15.67199h-1.986207zm10.924137 1.959h4.965517v13.71299h1.986207V9.794994h4.96552v-1.959H143.0069m30.587583 0l-4.766896 7.150344-4.866207-7.150347h-2.085518l5.95862 8.717546v6.954445h1.986208v-6.954444l5.85931-8.71754m-81.434482 0l-6.157242 15.67199h1.986207l1.688276-4.5057 6.45517-1.3713 2.18483 5.876998h1.986203l-6.05793-15.67199h-2.085518zm-1.886897 9.305242l2.97931-7.248294h.099315L97.92 16.063788l-5.56138 1.07745z" fill="#2E3D49"></path><path d="M29 .5l1 .5v13c0 5.551887-2.8897 8.695692-5.995216 10.099885L24.0094 24.1l-7.620963 4.388562c-.05877.03456-.11776.068527-.176957.101902l-.08642.049764.001806-.00254C14.48289 29.545895 12.684682 30 11 30 6 30 0 26 0 18V6l2 1v11c0 8 6 10 9 10 1.858706 0 4.86901-.76773 6.89043-3.254517C14.181726 23.872636 10 20.678703 10 14V2.2L2 7 0 6l10-6 1 .5 1 .5v13c0 6.939958 4.515283 8.612086 7.017542 8.933368C19.625786 21.62159 20 19.997902 20 18V5l2 1v12c0 1.852645-.321777 3.49077-.878395 4.91438C23.648223 22.549217 28 20.813144 28 14V2.25L22 6l-2-1 8-5 1 .5z" fill="#02B3E4"></path></g></svg>
+            </div>
+            <ul class="menu">
+                <li class="menu-item menu-item-links">
+                    <button><a href="#" class="btn menu-btn">Programs</a></button>
+                    <i class="fas fa-chevron-down"></i>
+                </li>
+                <li class="menu-item menu-items-links">
+                    <button><a href="#" class="btn menu-btn">Careers</a></button>
+                    <i class="fas fa-chevron-down"></i>
+                </li>
+                <li class="menu-item menu-items-links">
+                    <button><a href="#" class="btn menu-btn">For Enterprise</a></button>
+                    <i class="fas fa-chevron-down"></i>
+                </li>
+                <li class="menu-item"><button>
+                    <div class="vertical-bar"></div>
+                </li>
+                <li class="menu-item">
+                    <div class="vertical-bar">&vert;</div>
+                </li>
+                <li class="menu-item"><button>
+                    <button><a href="#" class="btn menu-btn">Sign in</a></button>
+                </li>
+                <li class="menu-item">
+                    <button><a href="#" class="btn menu-btn-blue">Get started</a></button>
+                </li>
+            </ul>
+        </nav>
+        <!-- Navigation Ends -->
+    </header>
+    <!-- Header Ends -->
+
+
+    <!-- Hero Starts-->
+    <section class="hero">
+        <div class="hero-left">
+            <div class="hero-left-content">
+                <h1>Bootcamp Quality at 1/10 of the Cost</h1>
+                <p>Udacity is the world’s fastest, most efficient way to master the skills tech companies want. 100% online, part-time & self-paced.</p>
+                <button><a href="#" class="btn btn-blue">Learn more</a></button>
+                <p>Industry leading programs built and recognized by top companies worldwide</p>
+                <ul class="hero-logo">
+                    <li class="hero-logo-item">
+                        <img src="/img/logo-white-google.svg" class="google-logo" alt="Google Logo">
+                    </li>
+                    <li class="hero-logo-item">
+                        <img src="/img/logo-white-aws.svg" class="aws-logo" alt="Google Logo">
+                    </li>
+                    <li class="hero-logo-item">
+                        <img src="/img/logo-white-att.svg" class="att-logo" alt="AT&T Logo">   
+                    </li>
+                    <li class="hero-logo-item">
+                        <img src="/img/logo-white-ibm.svg" class="ibm-logo" alt="IBM Logo">
+                    </li>
+                    <li class="hero-logo-item">
+                        <img src="/img/logo-white-lyft.svg" class="lyft-logo" alt="Lyft Logo">
+                    </li>
+                </ul>
+            </div>
+        </div>    
+
+        <div class="hero-right">
+            <h3>Only at Udacity: <strong>Job-Ready Skills</strong></h3>
+            <table class="hero-table">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th id="table-title-one">Udacity</th>
+                        <th id="table-title-two">Others</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="table-subject">Learn by doing</td>
+                        <td>&check;</td>
+                        <td>&#x58;</td>
+                    </tr>
+                    <tr>
+                        <td class="table-subject">Practitioner-level skills</td>
+                        <td>&check;</td>
+                        <td>&#x58;</td>                        
+                    </tr>
+                    <tr>
+                        <td class="table-subject">Job-focused content</td>
+                        <td>&check;</td>
+                        <td>&#x58;</td>
+                    </tr>
+                    <tr>
+                        <td class="table-subject">Real human help</td>
+                        <td>&check;</td>
+                        <td>&#x58;</td>
+                    </tr>
+                    <tr>
+                        <td class="table-subject">Personalized code reviews</td>
+                        <td>&check;</td>
+                        <td>&#x58;</td>
+                    </tr>
+                    <tr>
+                        <td class="table-subject">Real-life projects</td>
+                        <td>&check;</td>
+                        <td>&#x58;</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section> 
+    <!-- Hero Ends -->
+
+    <!-- Carousel Starts -->
+    <section class="carousel-container">
+        <div class="carousel-info">
+            <h2 class="carousel-title">Explore our schools to find your perfect program
+            </h2>
+            <ul class="carousel-menu">
+                <li class="carousel-menu-item carousel-menu-item-one">
+                    <a href="#">Data science 
+                        <div class="underline">
+                            <div class="triangle"></div>
+                        </div>
+                    </a>
+                </li>
+                <li class="carousel-menu-item carousel-menu-item-two"><a href="#">Programmning</a></li>
+                <li class="carousel-menu-item carousel-menu-item-three"><a href="#">Artificial intelligence</a></li>
+                <li class="carousel-menu-item carousel-menu-item-four"><a href="#">Cloud computing</a></li>
+                <li class="carousel-menu-item carousel-menu-item-five"><a href="#">Autonomous systems</a></li>
+                <li class="carousel-menu-item carousel-menu-item-six"><a href="#">Business</a></li>
+            </ul>
+        </div>
+    </section>
+
+</div>
+<!-- Wrapper Ends -->
+
+        <ul class="carousel-boxes">
+            <!-- Box One -->
+            <li class="carousel-one carousel-box-item">
+                <div class="carousel-top">
+                    <div class="carousel-top-text">New</div>
+                </div>
+                <div class="carousel-bottom">
+                    <h4>Data Science for Business</h4>
+                    <ul class="carousel-rating">
+                        <li class="carousel-stars">
+                            <img src="/img/star-yellow.svg" class="star" alt="Yellow Star">
+                            <img src="/img/star-yellow.svg" class="star" alt="Yellow Star">
+                            <img src="/img/star-yellow.svg" class="star" alt="Yellow Star">
+                            <img src="/img/star-yellow.svg" class="star" alt="Yellow Star">
+                            <img src="/img/star-grey.svg" class="star grey-star" alt="Yellow Star">
+                            <p>4.1 (42)</p>
+                        </li>
+                        <li class="carousel-bar-chart">
+                            <div class="bar-one"></div>
+                            <div class="bar-two"></div>
+                            <div class="bar-three"></div>
+                            <p>Intermediate</p>
+                        </li>
+                    </ul>
+                    <div class="carousel-text">
+                        <h5>Estimated time</h5>
+                        <p>4 month at 5-10 hrs/week</p>
+                    </div>
+                </div>
+            </li>
+            <!-- Box Two -->
+            <li class="carousel-two carousel-box-item">
+                <div class="carousel-top">
+                    <div class="carousel-top-text">New</div>
+                </div>
+                <div class="carousel-bottom">
+                    <h4>Data Product Manager</h4>
+                    <ul class="carousel-rating">
+                        <li class="carousel-stars">
+                            <img src="/img/star-yellow.svg" class="star" alt="Yellow Star">
+                            <img src="/img/star-yellow.svg" class="star" alt="Yellow Star">
+                            <img src="/img/star-yellow.svg" class="star" alt="Yellow Star">
+                            <img src="/img/star-yellow.svg" class="star" alt="Yellow Star">
+                            <img src="/img/star-grey.svg" class="star grey-star" alt="Yellow Star">
+                            <p>4.6 (15)</p>
+                        </li>
+                        <li class="carousel-bar-chart">
+                            <div class="bar-one"></div>
+                            <div class="bar-two"></div>
+                            <div class="bar-three"></div>
+                            <p>Intermediate</p>
+                        </li>
+                    </ul>
+                    <div class="carousel-text">
+                        <h5>Estimated time</h5>
+                        <p>4 month at 5-15 hrs/week</p>
+                    </div>
+                </div>
+            </li>
+            <!-- Box Three -->
+            <li class="carousel-three carousel-box-item">
+                <div class="carousel-top">
+                    <div class="carousel-top-text">New</div>
+                </div>
+                <div class="carousel-bottom">
+                    <h4>SQL</h4>
+                    <ul class="carousel-rating">
+                        <li class="carousel-stars">
+                            <img src="/img/star-yellow.svg" class="star" alt="Yellow Star">
+                            <img src="/img/star-yellow.svg" class="star" alt="Yellow Star">
+                            <img src="/img/star-yellow.svg" class="star" alt="Yellow Star">
+                            <img src="/img/star-yellow.svg" class="star" alt="Yellow Star">
+                            <img src="/img/star-grey.svg" class="star grey-star" alt="Yellow Star">
+                            <p>4.4 (43)</p>
+                        </li>
+                        <li class="carousel-bar-chart">
+                            <div class="bar-one"></div>
+                            <div class="bar-two"></div>
+                            <div class="bar-three"></div>
+                            <p>Intermediate</p>
+                        </li>
+                    </ul>
+                    <div class="carousel-text">
+                        <h5>Estimated time</h5>
+                        <p>3 month at 10-15 hrs/week</p>
+                    </div>
+                </div>
+            </li>
+            <!-- Box Four -->
+            <li class="carousel-four carousel-box-item">
+                <div class="carousel-top">
+                    <div class="carousel-top-text text-box-blue">Popular</div>
+                </div>
+                <div class="carousel-bottom">
+                    <h4>Data Analyst</h4>
+                    <ul class="carousel-rating">
+                        <li class="carousel-stars">
+                            <img src="/img/star-yellow.svg" class="star" alt="Yellow Star">
+                            <img src="/img/star-yellow.svg" class="star" alt="Yellow Star">
+                            <img src="/img/star-yellow.svg" class="star" alt="Yellow Star">
+                            <img src="/img/star-yellow.svg" class="star" alt="Yellow Star">
+                            <img src="/img/star-grey.svg" class="star grey-start" alt="Yellow Star">
+                            <p>4.4 (43)</p>
+                        </li>
+                        <li class="carousel-bar-chart">
+                            <div class="bar-one"></div>
+                            <div class="bar-two"></div>
+                            <div class="bar-three"></div>
+                            <p>Intermediate</p>
+                        </li>
+                    </ul>
+                    <div class="carousel-text">
+                        <h5>Estimated time</h5>
+                        <p>3 month at 5-10 hrs/week</p>
+                    </div>
+                </div>
+            </li>
+            <!-- Box Five -->
+            <li class="carousel-five carousel-box-item">
+                <div class="carousel-top">
+                    <div class="carousel-top-text">New</div>
+                </div>
+                <div class="carousel-bottom">
+                    <h4>Data Engineer</h4>
+                    <ul class="carousel-rating">
+                        <li class="carousel-stars">
+                            <img src="/img/star-yellow.svg" class="star" alt="Yellow Star">
+                            <img src="/img/star-yellow.svg" class="star" alt="Yellow Star">
+                            <img src="/img/star-yellow.svg" class="star" alt="Yellow Star">
+                            <img src="/img/star-yellow.svg" class="star" alt="Yellow Star">
+                            <img src="/img/star-grey.svg" class="star grey-star" alt="Yellow Star">
+                            <p>4.4 (43)</p>
+                        </li>
+                        <li class="carousel-bar-chart">
+                            <div class="bar-one"></div>
+                            <div class="bar-two"></div>
+                            <div class="bar-three"></div>
+                            <p>Intermediate</p>
+                        </li>
+                    </ul>
+                    <div class="carousel-text">
+                        <h5>Estimated time</h5>
+                        <p>5 month at 10-15 hrs/week</p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Carousel Ends -->
+    
+    <!-- Wrapper Starts -->
+    <div class="wrapper">
+        <!-- Card Starts -->
+        <section class="card">
+            <div class="card-title">
+                <h2>Don't waste your valuable time or money</h2>
+                <p>Only Udacity has all the critical factors to deliver real results</p>
+            </div>
+            <!-- Card Boxes -->
+            <div class="card-box-container">
+                <div class="card-box card-one">
+                    <img src="/img/briefcase.svg" alt="Briefcase Icon" class="card-box-img">
+                    <h4>Get real employable skills</h4>
+                    <p>Our quality curriculum is designed with top-tier industry partners, not academics, so you learn the high-impact skills that top companies want.</p>
+                </div>
+                <div class="card-box card-two">
+                    <img src="img/light-bulb.svg" alt="Lightbulb Icon" class="card-box-img">
+                    <h4>Project-based, active learning
+                    </h4>
+                    <p>Learn by doing with real-world projects and other hands-on exercises that lead to real skills mastery.
+                    </p>
+                </div>
+                <div class="card-box card-three">
+                    <img src="img/clock.svg" alt="Clock Icon" class="card-box-img">
+                    <h4>Learn on your schedule</h4>
+                    <p>Self-paced learning - whenever and wherever you want. Graduate while learning part-time for 10 hrs/week.
+                    </p>
+                </div>
+                <div class="card-box card-four">
+                    <img src="img/mentor.svg" alt="Mentor Icon" class="card-box-img">
+                    <h4>The help you need, when you need it</h4>
+                    <p>Reach out to our mentors 24/7 and have your coding questions answered quickly so you can keep learning.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!-- Card Ends -->
+
+        <!-- Banner Starts-->
+        <section class="banner">
+            <h2>Make the most of your online learning experience</h2>
+            <p>Our Online Learning Resource Center has tips, tricks and inspiring stories to help you learn while staying home.</p>
+            <button><a href="#" class="btn menu-btn banner-btn">Explore resources</a></button>
+        </section>
+        <!-- Banner Ends -->
+
+    
+    <!-- Bottom Container Starts -->
+    <div class="bottom-container">
+        <!-- Student Card Starts -->
+        <section class="student-cards">
+            <!-- Studen Cards Top -->
+            <div class="student-cards-top">
+                <h2>Strength in numbers</h2>
+                <div class="student-cards-numbers">
+                    <div class="numbers-column">
+                        <img src="img/degree-hat.svg" alt="Student Cap">
+                        <h3>100,000&#43;</h3>
+                        <p>Udacity graduations and counting</p>
+                    </div>
+                    <div class="numbers-column">
+                        <img src="/img/price.svg" alt="Diploma">
+                        <h3>200&#43;</h3>
+                        <p>Industry experts partnering to build our content</p>
+                    </div>
+                    <div class="numbers-column">
+                        <img src="img/chart.svg" alt="Chart">
+                        <h3>100&#43;</h3>
+                        <p>Enterprise customers world-wide</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="student-box-container">
+                <div class="student-cards-column student-cards-one">
+                    <img src="https://www.udacity.com/www-proxy/contentful/assets/2y9b3o528xhq/2hJTmqhPe2T5zPCSVC3waq/533fc738cb83f2baf5aa75ca3ae77161/Jesse.png" alt="">
+                    <div class="student-box-text">
+                        <h3>Jesse</h3>
+                        <p>"The curriculum was directly targeted toward applied techniques with high profile projects – real datasets with industry partners. It helped me achieve my career transition goal."</p>
+                        <div class="student-box-text-bottom">
+                            <p>Now at</p>
+                            <p>Raytheon | Data Scientist</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="student-cards-column student-cards-two">
+                    <img src="https://www.udacity.com/www-proxy/contentful/assets/2y9b3o528xhq/4nmjsKImQCCTpeoHhMMz1W/548748ac6a642329aadde86996d23fcf/Sundar.png" alt="">
+                    <div class="student-box-text">
+                        <h3>Sundar</h3>
+                        <p>"The curriculum was aligned with what I wanted to study. The assignments are specific to the industry I’m in. I was able to develop new language translation tools for my company."</p>
+                        <div class="student-box-text-bottom">
+                            <p>Now at</p>
+                            <p>Comcast | Lead Data Scientist</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="student-cards-column student-cards-three">
+                    <img src="https://www.udacity.com/www-proxy/contentful/assets/2y9b3o528xhq/3GBOJxWBUVtGuEDc1Oxsxj/8742cdc8459747649df0184f2674673b/David.png" alt="">
+                    <div class="student-box-text">
+                        <h3>David</h3>
+                        <p>"One of the things that attracted me to Udacity was a curriculum developed by people that worked for some of the biggest and most successful tech companies.”</p>
+                        <br>
+                        <div class="student-box-text-bottom">
+                            <p>Now at</p>
+                            <p>Panera Bread | Data Administrator</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button><a href="#" class="btn menu-btn cards-btn">More success stories</a></button>
+        </section>
+        <!-- Student Card Ends -->
+
+        <!-- Footer Starts -->
+        <footer class="main-footer">
+            <a href="/index.html" class=icon-to-top><svg height="30" viewBox="0 0 30 30" width="30"><path d="M29 .5l1 .5v13c0 5.551887-2.8897 8.695692-5.995216 10.099885L24.0094 24.1l-7.620963 4.388562c-.05877.03456-.11776.068527-.176957.101902l-.08642.049764.001806-.00254C14.48289 29.545895 12.684682 30 11 30 6 30 0 26 0 18V6l2 1v11c0 8 6 10 9 10 1.858706 0 4.86901-.76773 6.89043-3.254517C14.181726 23.872636 10 20.678703 10 14V2.2L2 7 0 6l10-6 1 .5 1 .5v13c0 6.939958 4.515283 8.612086 7.017542 8.933368C19.625786 21.62159 20 19.997902 20 18V5l2 1v12c0 1.852645-.321777 3.49077-.878395 4.91438C23.648223 22.549217 28 20.813144 28 14V2.25L22 6l-2-1 8-5 1 .5z" fill="#02B3E4" fill-rule="evenodd"></path></svg></a>
+
+            <!-- Footer Links Starts-->
+            <div class="footer-top">
+                <!-- Column One -->
+                <ul class="link-list list-one">
+                    <li class="link-list-title">Featured programs</li>
+                    <li class="link-list-item"><a href="#">RPA Developer with UiPath</a></li>
+                    <li class="link-list-item"><a href="#">Agile Software Development</a></li>
+                    <li class="link-list-item"><a href="#">Data Science for Business Leaders</a></li>
+                    <li class="link-list-item"><a href="#">DevOps Engineer for Microsoft Azure</a></li>
+                    <li class="link-list-item"><a href="#">Introduction to Cypersecurity</a></li>
+                    <li class="link-list-item"><a href="#">Intermediate JavaScript</a></li>
+                    <li class="link-list-item"><a href="#">Monetization Strategy</a><li>
+                    <li class="link-list-item"><a href="#">Growth Product Manager</a></li>
+                    <li class="link-list-item"><a href="#">Java Web Developer</a></li>
+                    <li class="link-list-item"><a href="#">Data Product Manager</a></li>
+                    <li class="link-list-item"><a href="#">SQL</a></li>
+                    <li class="link-list-item"><a href="#">AI for Healthcare</a></li>
+                    <li class="link-list-item"><a href="#">AWS Cloud Architect</a></li>
+                    <li class="link-list-item"><a href="#">Intel&reg; Edge AI for IoT Developers</a></li>
+                    <li class="link-list-item"><a href="#">Product Manager</a></li>
+                    <li class="link-list-item"><a href="#">AI for Business Leaders</a></li>
+                    <li class="link-list-item"><a href="#">Data Intro to Machine Learning with TensorFlow</a></li>
+                    <li class="link-list-item"><a href="#">Data Streaming</a></li>
+                    <li class="link-list-item"><a href="#">UX Designer</a></li>
+                    <li class="link-list-item"><a href="#">AI Product Manager</a></li>
+                    <li class="link-list-item"><a href="#">Sensor Fusion Engineer</a></li>
+                    <li class="link-list-item"><a href="#">Data Visualization</a></li>
+                    <li class="link-list-item"><a href="#">Cloud Developer</a></li>
+                    <li class="link-list-item"><a href="#">Cloud Dev Ops Engineer</a></li>
+                    <li class="link-list-item"><a href="#">C&#43;&#43;</a></li>
+                    <li class="link-list-item"><a href="#">Data Structures and Algorithms</a></li>
+                    <li class="link-list-item"><a href="#">Marketing Analytics</a></li>
+                    <li class="link-list-item"><a href="#">Data Engineer</a></li>
+                    <li class="link-list-item"><a href="#">Android Basics</a></li>
+                    <li class="link-list-item"><a href="#">Android Developer</a></li>
+                    <li class="link-list-item"><a href="#">iOS Developer</a></li>
+                    <li class="link-list-item"><a href="#">Business Analytics</a></li>
+                    <li class="link-list-item"><a href="#">Data Analyst</a></li>
+                    <li class="link-list-item"><a href="#">Front End Web Developer</a></li>
+                    <li class="link-list-item"><a href="#">Back End Web Developer</a></li>
+                    <li class="link-list-item"><a href="#">Full Stack Web Developer</a></li>
+                    <li class="link-list-item"><a href="#">Intro to Programming</a></li>
+                    <li class="link-list-item"><a href="#">Intro to Machine Learning</a></li>
+                    <li class="link-list-item"><a href="#">Machine Learning Engineer</a></li>
+                    <li class="link-list-item"><a href="#">Predictive Analytics for Business</a></li>
+                    <li class="link-list-item"><a href="#">Programming for Data Science with Python</a></li>
+                    <li class="link-list-item"><a href="#">Programming for Fata Science with R</a></li>
+                    <li class="link-list-item"><a href="#">React</a></li>
+                </ul>
+                <!-- Column Two -->
+                <ul class="link-list list-two">
+                    <li class="link-list-title">Only at Udacity</li>
+                    <li class="link-list-item"><a href="#">Artificial Intelligence</a></li>
+                    <li class="link-list-item"><a href="#">Deep Learning</a></li>
+                    <li class="link-list-item"><a href="#">Digital Marketing</a></li>
+                    <li class="link-list-item"><a href="#">Flying Car and Autonomous Flight Engineer</a></li>
+                    <li class="link-list-item"><a href="#">Intro to Self-Driving Cars</a></li>
+                    <li class="link-list-item"><a href="#">Machine Learning Engineer</a></li>
+                    <li class="link-list-item"><a href="#">Robotics Software Engineer</a></li>
+
+                    <li class="link-list-title">Udacity schools</li>
+                    <li class="link-list-item"><a href="#">Self-Driving Cars Engineer</a></li>
+                    <li class="link-list-item"><a href="#">School of Artificial Intelligence</a></li>
+                    <li class="link-list-item"><a href="#">School of Autonomous Systems</a></li>
+                    <li class="link-list-item"><a href="#">School of Business</a></li> 
+                    <li class="link-list-item"><a href="#">School of Data Science</a></li>
+                    <li class="link-list-item"><a href="#">School of Programming</a></li>
+                    <li class="link-list-item"><a href="#">School of Cloud Computing</a></li>
+                </ul>
+
+                <!-- Column Three -->
+                <ul class="link-list list-three">
+                    <li class="link-list-title">Resources</li>
+                    <li class="link-list-item"><a href="#">Catalog</a></li>
+                    <li class="link-list-item"><a href="#">Career Resource Center</a></li>
+                    <li class="link-list-item"><a href="#">Career Services</a></li>
+                    <li class="link-list-item"><a href="#">Student Success</a></li>
+                    <li class="link-list-item"><a href="#">Udacity Talks</a></li>
+                    <li class="link-list-item"><a href="#">Scholarship</a></li>
+                    <li class="link-list-item"><a href="#">What is AI</a></li>
+                    <li class="link-list-title">Programs</li>
+                    <li class="link-list-item"><a href="#">Veterans</a></li>
+                    <li class="link-list-item"><a href="#">Georgia Tech</a></li>
+                </ul>
+                 <!-- Column Four -->
+                <ul class="link-list list-four">
+                    <li class="link-list-title">Company</li>
+                    <li class="link-list-item"><a href="#">About</a></li>
+                    <li class="link-list-item"><a href="#">Blog</a></li>
+                    <li class="link-list-item"><a href="#">In the News</a></li>
+                    <li class="link-list-item"><a href="#">Jobs</a></li>
+                    <li class="link-list-item"><a href="#">Udacity Intersect</a></li>
+                    <li class="link-list-item"><a href="#">Become an Instructor</a></li>
+                    <li class="link-list-title">Enterprise</li>
+                    <li class="link-list-item"><a href="#">Udacity for Enterprise</a></li>
+                    <li class="link-list-item"><a href="#">Enterprise Resource Center</a></li>
+                </ul>
+                 <!-- Column Five -->
+                <ul class="link-list list-five">
+                    <li class="link-list-title">Support</li>
+                    <li class="link-list-item"><a href="#">Contact Us</a></li>
+                    <li class="link-list-item"><a href="#">Help and FAQ</a></li>
+                    <li class="link-list-item"><a href="#">Service Status</a></li>
+                    <li class="link-list-item"><a href="#">Tech Requirements</a></li>
+                </ul>
+            </div>  
+
+        <!-- Footer Links Ends -->
+
+        <!-- Footer Bottom Starts -->
+            <div class="footer-bottom-links">
+                <ul class="bottom-links-menu">
+                    <li class="bottom-links-menu-item"><p>&copy; 2011-2020 Udacity, Inc.</p></li>
+                    <li class="bottom-links-menu-item"><a href="#">Legal &amp; Privacy</a></li>
+                    <li class="bottom-links-menu-item"><a href="#">Site Map</a></li>
+                </ul>
+                <ul class="bottom-social-media-menu">
+                    <li class="social-media-menu-item"><a href="#"><img src="/img/facebook.svg" class="social-icon" alt="Facebook Logo"></a></li>
+                    <li class="social-media-menu-item"><a href="#"><img src="/img/twitter.svg"class="social-icon" alt="Twitter Logo"></a></li>
+                    <li class="social-media-menu-item"><a href="#"><img src="/img/medium.svg" class="social-icon"alt="Medium Logo"></a></li>
+                    <li class="social-media-menu-item"><a href="#"><img src="/img/linkedin.svg" class="social-icon"alt="LinkedIn Logo"></a></li>
+                    <li class="social-media-menu-item"><a href="#"><img src="/img/instagram.svg" class="social-icon"alt="Instragram Logo"></a></li>
+                </ul>
+            </div>
+            <div class="footer-bottom-end-text">
+                <p>"Nanodegree" is a registered trademark of Udacity. &copy; 2011–2020 Udacity, Inc.</p>
+                <p>Udacity is not an accredited university and we don't confer traditional degrees. Udacity Nanodegree programs represent collaborations with our industry partners who help us develop our content and who hire many of our program graduates.</p>
+            </div>        
+        </footer>
+        <!-- Footer Ends -->
+    </div>
+    <!-- Bottom Container Ends-->
+
+</body>
+</html>
